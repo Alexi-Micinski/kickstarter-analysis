@@ -51,7 +51,11 @@ There is a possible inverse correlation between percentage successful and percen
 
 ### Challenges and Difficulties Encountered
 
+No major challenges arose during the analysis of this data. 
 
+One possible challenge that could have occured is getting an error when extracting the year from the “Date Created Conversion” column. The “Date Created Conversion” column was created by converting the launched at date to a readable date. The launched at dates were in unix timestamp format and needed epoch conversion. If this wasn't done correctly, the year would not have been available for extraction. 
+
+Another possible challenge that could have occured is getting incorrect values for the Oucomes Based on Goals chart using the COUNTIFS() formula. This formula can get long and therefore it has many opportunities for errors. The formula that was used required manual input for each of the goal amount ranges. This manual input could've been avoided by using greater than or less than formulas in the table rather than strings. Ie <1000 instead of "less than 1000." This way a cell could've been selected rather than manually entering in the range for each cell. This also would've cut down on time entering the formulas for each cell.
 
 ## Results
 
