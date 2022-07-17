@@ -29,9 +29,29 @@ A line chart was then created based on the summary table to show theater outcome
 The month of May had the most successful campaigns, while June, July, and October all had a similar number of failed campaigns. This can be seen by studying the points on the line chart.
 
 ### Analysis of Outcomes Based on Goals
+Next, the data was analyzed to visualize the percentage of successful, failed, and canceled plays based on the funding goal amount.
 
+A new sheet labeled “Outcomes Based on Goals” was created. Then headers were created and dollar amount ranges were inserted in order to group projects based on goal amounts. 
+
+<img width="82" alt="Dollar Amount Ranges" src="https://user-images.githubusercontent.com/106785377/179426944-1e577a30-ab93-4fff-8b78-be2e2cec025c.png">
+
+The COUNTIFS() function was used to populate the number of successful, failed, and canceled columns by filtering on the outcome column in the data, the goal amount ranges created in the previous step, and the plays subcategory as the criteria. 
+
+<img width="730" alt="Formula Example" src="https://user-images.githubusercontent.com/106785377/179426993-c65490e4-a66f-4655-b86f-78fb43521f49.png">
+
+The sum function was used to calculate the total number of projects and the percentage was calculated for each row. 
+
+<img width="699" alt="Table Example" src="https://user-images.githubusercontent.com/106785377/179427044-f7ca8078-f762-400d-8b4e-396ee59582d3.png">
+
+Next a line chart was created based on the data to visualize the relationship between the goal-amount ranges and the percentage of successful, failed, or canceled projects.
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/106785377/179427014-8ade879b-ecec-4edc-8b6c-98673714d5fd.png)
+
+There is a possible inverse correlation between percentage successful and percentage failed outcomes based on goals. However, no statistics were run to confirm this. When percentage successful is high, percentage failed is low and vise versa. The most successful outcomes based on goal amount, or highest percentage successful, is for goals below 4,999 and between 35,000 and 44,999 dollars.
 
 ### Challenges and Difficulties Encountered
+
+
 
 ## Results
 
