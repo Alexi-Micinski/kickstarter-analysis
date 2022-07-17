@@ -10,8 +10,9 @@ Louise's campaign came close to its goal in a short amount of time. Now she want
 
 The Kickstarter data was first downloaded and saved in organized and easy to access folders. The data was then resized, organized, and formatted for the purpose of familiarization. Filters, conditional formatting, and the freeze panes features were also used in getting aquainted with the data. It is important to be familiar with the data before attempting to manipulate or summarize it. 
 
-Next filters were applied and subcategories were parsed out from parent categories in order to create more detailed data for analysis. Louise's project falls under the theater category and plays subcategory. From here summary tables, pivot charts, and graphs were created to summarize the data in a more digestible and readable way. Factors that make a successful campaign can then be more easily interpreted from the summary tables and graphs.![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/106785377/179426165-50d31f4d-03d4-4966-8ec5-e54d8b4c9fce.png)
+Next filters were applied and subcategories were parsed out from parent categories in order to create more detailed data for analysis. Louise's project falls under the theater category and plays subcategory. From here summary tables, pivot charts, and graphs were created to summarize the data in a more digestible and readable way. Factors that make a successful campaign can then be more easily interpreted from the summary tables and graphs.
 
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/106785377/179426165-50d31f4d-03d4-4966-8ec5-e54d8b4c9fce.png)
 
 Louise is intersted in campaign oucomes based on launch dates and funraising goals. Campaign outcomes are categorized based on if they were successful, failed, or canceled.
 
@@ -47,7 +48,7 @@ Next a line chart was created based on the data to visualize the relationship be
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/106785377/179427014-8ade879b-ecec-4edc-8b6c-98673714d5fd.png)
 
-There is a possible inverse correlation between percentage successful and percentage failed outcomes based on goals. However, no statistics were run to confirm this. When percentage successful is high, percentage failed is low and vise versa. The most successful outcomes based on goal amount, or highest percentage successful, is for goals below 4,999 and between 35,000 and 44,999 dollars.
+The most successful outcomes based on goal amount, or highest percentage successful, is for goals below 4,999 and between 35,000 and 44,999 dollars.
 
 ### Challenges and Difficulties Encountered
 
@@ -61,8 +62,16 @@ Another possible challenge that could have occured is getting incorrect values f
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
+  The month of May is the best month to launch a theater campaign, as it has the highest number of successful campaigns. The month of October is the worst month to launch a theater campaign as it has the highest number of failed campaigns compared to sucessful campaigns.
+
 - What can you conclude about the Outcomes based on Goals?
+
+  The most successful outcomes based on goals for plays are for goals below 4,999 and between 35,000 and 44,999 dollars. Clearly having a low goal is easy to achieve. Above the low goal range though, goals between the ranges including 35,000 to 44,999 dollars seems to be a successful range.
 
 - What are some limitations of this dataset?
 
+  The datasets give direction towards what months and what goals might give succussful or failed campaigns, but they do not explain why or take other factors into account. For example, do theater campaigns tend to fail in October because of the time of year or because those plays happen to also have goals that are too high, etc.
+
 - What are some other possible tables and/or graphs that we could create?
+
+  It would be useful to plot mean goals based on launch date and compare the results to that of outcomes based on launch date. This would give more insight to why campaigns fail in certain months.
