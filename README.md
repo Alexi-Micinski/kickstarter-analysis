@@ -12,8 +12,6 @@ The Kickstarter data was first downloaded and saved in organized and easy to acc
 
 Next filters were applied and subcategories were parsed out from parent categories in order to create more detailed data for analysis. Louise's project falls under the theater category and plays subcategory. From here summary tables, pivot charts, and graphs were created to summarize the data in a more digestible and readable way. Factors that make a successful campaign can then be more easily interpreted from the summary tables and graphs.
 
-![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/106785377/179426165-50d31f4d-03d4-4966-8ec5-e54d8b4c9fce.png)
-
 Louise is intersted in campaign oucomes based on launch dates and funraising goals. Campaign outcomes are categorized based on if they were successful, failed, or canceled.
 
 ### Analysis of Outcomes Based on Launch Date
@@ -48,7 +46,7 @@ Next a line chart was created based on the data to visualize the relationship be
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/106785377/179427014-8ade879b-ecec-4edc-8b6c-98673714d5fd.png)
 
-The most successful outcomes based on goal amount, or highest percentage successful, is for goals below 4,999 and between 35,000 and 44,999 dollars.
+The most successful outcomes based on goal amount, or highest percentage successful, is for goals below 4,999 and between 35,000 and 44,999 dollars. There were no canceled play fundraisers.
 
 ### Challenges and Difficulties Encountered
 
@@ -74,4 +72,4 @@ Another possible challenge that could have occured is getting incorrect values f
 
 - What are some other possible tables and/or graphs that we could create?
 
-  It would be useful to plot mean goals based on launch date and compare the results to that of outcomes based on launch date. This would give more insight to why campaigns fail in certain months.
+  It would be useful to plot mean goals based on launch date and compare the results to that of outcomes based on launch date. This would give more insight to why campaigns fail in certain months. It would also be useful to reproduce the outcomes based on launch date graphs for the plays subcategory to see if May is still the best option for start date.
